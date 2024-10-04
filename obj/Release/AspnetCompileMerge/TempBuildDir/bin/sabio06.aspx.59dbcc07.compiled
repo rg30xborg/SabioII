@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/1/sabio06.aspx" hash="a144d5752" filehash="9c57170a6d09d4f5" flags="110000" assembly="App_Web_yolhpt0x" type="ASP._1_sabio06_aspx">
+    <filedeps>
+        <filedep name="/1/sabio01.inc" />
+        <filedep name="/1/sabio06.aspx" />
+    </filedeps>
+</preserve>

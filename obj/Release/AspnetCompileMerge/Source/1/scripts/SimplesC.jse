@@ -1,0 +1,60 @@
+<!--//
+
+function linkar(obj){
+	if(event.srcElement.tagName=='TD'){
+		URL = 'http://127.0.0.1/sabio/2/Sabio18.asp?ID=' + obj
+		location.href = URL
+	}
+}
+
+function linka(obj){
+	if(event.srcElement.tagName=='TD'){
+		URL = 'http://127.0.0.1/sabio/2/Sabio' + obj + '.asp'
+		location.href = URL
+	}
+}
+
+function isEmpty(s){
+	return ((s == null) || (s.length == 0))
+}
+
+function checkField(s){
+	if ((s.indexOf("\'")>=0) || (s.indexOf("\"")>=0) || (s.indexOf(" ")>=0) || (s.indexOf("*")>=0) || (s.indexOf("?")>=0) || (s.indexOf("\\")>=0) || (s.indexOf("/")>=0) || (s.indexOf(":")>=0) || (s.indexOf("<")>=0) || (s.indexOf(">")>=0) || (s.indexOf("|")>=0)) {	
+		return false
+	}
+	return true
+}
+
+function warnInvalid (theField, s, EmptyOK){
+	theField.focus()
+	theField.select()
+		if (EmptyOK) {
+			alert("RG 3.0 - DADOS INCORRETOS:\n\nO campo "+s+" contém caracteres inválidos !\nOs caracteres \' \" * ? \\ / : < > | e espaço não são aceitos pelo sistema.")
+		} else {
+			alert("RG 3.0 - DADOS INCOMPLETOS:\n\nO campo "+s+" deve ser preenchido !\nOs caracteres \' \" * ? \\ / : < > | e espaço não são aceitos pelo sistema.")
+	}
+	return false
+}
+
+function verifica(){
+	if (!checkField(logonForm.userlogon.value) || isEmpty(logonForm.userlogon.value)) {
+		warnInvalid (logonForm.userlogon, 'Seu Email', false)
+		return false }
+	if ((logonForm.userlogon.value).indexOf("@") < 0 || (logonForm.userlogon.value).length < 10) {
+		alert('RG 3.0 - ALERTA:\n\nO Endereço E-mail informado está incorreto !')
+		return false }
+	if (!checkField(logonForm.userpassw.value) || isEmpty(logonForm.userpassw.value)) {
+		warnInvalid (logonForm.userpassw, 'Uma Senha', false)
+		return false }
+	if ((logonForm.userpassw.value).length < 6){
+		alert('RG 3.0 - SOLICITAÇÃO:\n\nUtilize uma Senha com um mínimo de 6 caracteres!')
+		return false }
+	return true
+}
+
+function click_me(){
+	if (event.button > 1) alert("RG 3.0 - Informação\n\nOpss - Utilize somente o botão esquerdo do mouse")
+}
+	document.onmousedown=click_me
+
+//-->

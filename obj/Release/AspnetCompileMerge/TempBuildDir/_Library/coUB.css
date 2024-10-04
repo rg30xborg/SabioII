@@ -1,0 +1,10 @@
+/* Cascading Style Sheet for RG Ca$ino Web */
+
+body		{ background: black / blue; border: 0; margin: 0}
+
+table 	{ font-family: Verdana, Arial; font-size: 8pt;
+		  background-repeat: no-repeat; background-position: center; border: 0}
+
+input 	{ text-align: center; background-color: rgb(255,255,236); font-family: Verdana, Arial; font-size: 7pt}
+
+select 	{ font-family: Verdana, Arial; font-size: 8pt}

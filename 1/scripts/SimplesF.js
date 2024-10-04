@@ -1,0 +1,12 @@
+<!--//
+
+function OnCarg(){
+	NCalc.innerText = " "
+}
+
+function click_me(){
+	if (event.button > 1) 
+        alert("RG 3.0 - Informação (º_º):\n\nOpss - Utilize somente o botão esquerdo do mouse");
+}
+	document.onmousedown=click_me;
+//-->

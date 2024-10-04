@@ -1,0 +1,8 @@
+/* Cascading Style Sheet for RG Ca$ino Web */
+
+body		{ font-family: Verdana, Arial; font-size: 9pt; background-repeat: repeat-y;}
+table		{ font-family: Verdana, Arial; font-size: 8pt; border: 0;}
+A:LINK	{ font-family: Arial, Helvetica, sans-serif; font-size :  9pt; font-style : normal; color : Blue; font-weight : bold; text-decoration : none; }
+A:VISITED	{ font-family: Arial, Helvetica, sans-serif; font-size :  9pt; font-style : normal; color : Blue;  font-weight : normal; text-decoration : none; }
+A:ACTIVE	{ font-family: Arial, Helvetica, sans-serif; font-size :  9pt; font-style : normal; color : Black;  font-weight : bold; text-decoration : none; }
+A:HOVER	{ font-family: Arial, Helvetica, sans-serif; font-size : 11pt; font-style : normal; color : Red;   font-weight : bold; text-decoration : none; }

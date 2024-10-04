@@ -1,0 +1,52 @@
+<!--
+
+function menu1c1(){
+	Py3.style.visibility = 'hidden'; Py2.style.visibility = ''
+}
+
+function menu1b1(){
+	Py2.style.visibility = 'hidden'; Py1.style.visibility = ''
+}
+
+function menu1b2(){
+	Py2.style.visibility = 'hidden'; Py3.style.visibility = ''
+}
+
+function menu1a1(){
+	Py1.style.visibility = 'hidden'; Py2.style.visibility = ''
+}
+
+function menu1(){
+	Rot1.background = 'images/bt1a.gif'; Rot2.background = Rot3.background = 'images/bt1.gif'
+	Ly1.style.visibility = Ly2.style.visibility = 'hidden'; Ly0.style.visibility = ''
+}
+
+function menu2(){
+	Rot2.background = 'images/bt1a.gif'; Rot3.background = Rot1.background = 'images/bt1.gif'
+	Ly0.style.visibility = Ly2.style.visibility = 'hidden'; Ly1.style.visibility = ''
+}
+
+function menu3(){
+	Rot3.background = 'images/bt1a.gif'; Rot2.background = Rot1.background = 'images/bt1.gif'
+	Ly0.style.visibility = Ly1.style.visibility = 'hidden'; Ly2.style.visibility = ''
+}
+
+function linkar(src)
+{
+	if(event.srcElement.tagName == 'TD') parent.main.location.href = 'http://127.0.0.1/sabio/2/' + src
+}
+
+function linka(src)
+{
+	if(event.srcElement.tagName == 'TD') parent.main.location.href = 'http://127.0.0.1/sabio/2/tema' + src + '/sabio01.asp'
+}
+
+if(top.frames.super1.LogOK) top.frames.super1.LogOK.style.visibility = ''
+
+function click_me(){
+	if (event.button > 1) alert("RG 3.0 - Informação\n\nOpss - Utilize somente o botão esquerdo do mouse")
+}
+	document.onmousedown = click_me
+//-->
+
+

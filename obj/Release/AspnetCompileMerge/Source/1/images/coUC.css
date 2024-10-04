@@ -1,0 +1,46 @@
+/* Cascading Style Sheet for RG Ca$ino Web */
+
+body		{ font-family: Verdana, Arial; font-size: 9pt; background-repeat: no-repeat; background-position: center;}
+input		{ font-family: Verdana, Arial; font-size: 8pt;}
+table		{ font-family: Verdana, Arial; font-size: 8pt; border: 0;}
+A:LINK	{ font-family: Arial, Helvetica, sans-serif; font-size :  9pt; font-style : normal; color : Blue; font-weight : bold; text-decoration : none; }
+A:VISITED	{ font-family: Arial, Helvetica, sans-serif; font-size :  9pt; font-style : normal; color : Blue;  font-weight : normal; text-decoration : none; }
+A:ACTIVE	{ font-family: Arial, Helvetica, sans-serif; font-size :  9pt; font-style : normal; color : Black;  font-weight : bold; text-decoration : none; }
+A:HOVER	{ font-family: Arial, Helvetica, sans-serif; font-size : 11pt; font-style : normal; color : Red;   font-weight : bold; text-decoration : none; }
+.spanstyle 	{ font-family: Arial, Helvetica, sans-serif; font-size : 12pt; font-weight : bold; color: Orange; position: absolute;	top: -50px; visibility: visible; }
+select	{ font-family: Verdana, Arial; font-size: 8pt;}
+textarea	{ font-family: Verdana, Arial; font-size: 8pt;}
+.blink_text {
+    animation:1s blinker linear infinite;
+    -webkit-animation:1s blinker linear infinite;
+    -moz-animation:1s blinker linear infinite;
+     color: red;
+    }
+
+    @-moz-keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+
+    @-webkit-keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+
+    @keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+
+    .textvalignmiddle {
+        line-height: 40px;
+    }
+
+    .textvalignmiddle > span {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 1em; /*set line height back to normal*/
+    }
